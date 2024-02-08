@@ -1,0 +1,39 @@
+static void Main(string[] args)
+        {
+            int opcao = 0;
+
+            do { 
+            Console.Write("\n\tMENU:" +
+                "\n1-Somar" +
+                "\n2-Subtrair" +
+                "\n3-Dividir" +
+                "\n4-Multiplicar" +
+                "\n0-SAIR\n\n");
+
+                opcao = int.Parse(Console.ReadLine());
+
+                switch (opcao) { 
+                    case 0:
+                        Console.WriteLine("\n\nSaindo....");
+                        break;
+                    case 1:
+                        Console.WriteLine("\n\nSoma.");
+                        break;
+                    case 2:
+                        Console.WriteLine("\n\nSubtrai.");
+                        break;
+                    case 3:
+                        Console.WriteLine("\n\nDivide.");
+                        break;
+                    case 4:
+                        Console.WriteLine("\n\nMultiplica.");
+                        break;
+                }
+          
+            }while (opcao!=0);
+
+
+
+            
+
+        }
